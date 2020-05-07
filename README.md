@@ -27,10 +27,17 @@ be used for that position in the room.
 * pickle
 * threading
 
+Before running the spatializer, **you must download `reverbs.pkl` from the following
+Google Drive folder:** https://drive.google.com/drive/folders/1H-mDgpaUx1v2u540TYjbQO6etwsdXHQ5?usp=sharing.
+Place the downloaded `reverbs.pkl` in the same directory as `realtime.py`.
+
 To run the spatializer: `python3 realtime.py`
 
 Listener/source position can be adjusted with the sliders. The sample can be
-replayed using the "Replay" button.
+replayed using the "Replay" button. An example of the GUI interface is shown
+below:
+
+![Example GUI interface](example-gui.png)
 
 **NOTE:** Due to the large size of `reverbs.pkl`, the GUI will take a few seconds
 to appear as the reverbed sounds load.
